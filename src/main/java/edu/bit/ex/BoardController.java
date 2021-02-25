@@ -34,6 +34,8 @@ public class BoardController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("delete", formattedDate );
+		model.addAttribute("delete2", formattedDate );
+		
 		
 		return "home";
 	}
